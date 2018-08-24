@@ -1,6 +1,6 @@
-package com.gof.patterns.behaviour.chain_of_responsibility.order_handler;
+package com.gof.patterns.behaviour.chainofresponsibility.orderhandler;
 
-import com.gof.patterns.behaviour.chain_of_responsibility.OrderRequest;
+import com.gof.patterns.behaviour.chainofresponsibility.OrderRequest;
 
 public class DrinksOrderHandler extends OrderHandler{
 

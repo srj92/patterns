@@ -1,7 +1,7 @@
-package com.gof.patterns.behaviour.chain_of_responsibility.order_client;
+package com.gof.patterns.behaviour.chainofresponsibility.orderclient;
 
-import com.gof.patterns.behaviour.chain_of_responsibility.OrderRequest;
-import com.gof.patterns.behaviour.chain_of_responsibility.order_handler.OrderHandler;
+import com.gof.patterns.behaviour.chainofresponsibility.OrderRequest;
+import com.gof.patterns.behaviour.chainofresponsibility.orderhandler.OrderHandler;
 
 public class OrderClient {
 

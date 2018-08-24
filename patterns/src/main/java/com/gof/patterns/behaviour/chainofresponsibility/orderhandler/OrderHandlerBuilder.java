@@ -1,9 +1,9 @@
-package com.gof.patterns.behaviour.chain_of_responsibility.order_handler;
+package com.gof.patterns.behaviour.chainofresponsibility.orderhandler;
 
-import com.gof.patterns.behaviour.chain_of_responsibility.order_handler.DrinksOrderHandler;
-import com.gof.patterns.behaviour.chain_of_responsibility.order_handler.NonVegOrderHandler;
-import com.gof.patterns.behaviour.chain_of_responsibility.order_handler.OrderHandler;
-import com.gof.patterns.behaviour.chain_of_responsibility.order_handler.VegOrderHandler;
+import com.gof.patterns.behaviour.chainofresponsibility.orderhandler.DrinksOrderHandler;
+import com.gof.patterns.behaviour.chainofresponsibility.orderhandler.NonVegOrderHandler;
+import com.gof.patterns.behaviour.chainofresponsibility.orderhandler.OrderHandler;
+import com.gof.patterns.behaviour.chainofresponsibility.orderhandler.VegOrderHandler;
 
 public class OrderHandlerBuilder {
 
