@@ -1,4 +1,4 @@
-package com.gof.patterns.behaviour.chainofresponsibility;
+package com.gof.patterns.behaviour.chainofresponsibility.request;
 
 import com.gof.patterns.behaviour.chainofresponsibility.orderhandler.OrderHandler.OrderType;
 
