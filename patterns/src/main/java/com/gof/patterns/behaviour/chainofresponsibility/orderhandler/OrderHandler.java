@@ -1,6 +1,6 @@
 package com.gof.patterns.behaviour.chainofresponsibility.orderhandler;
 
-import com.gof.patterns.behaviour.chainofresponsibility.OrderRequest;
+import com.gof.patterns.behaviour.chainofresponsibility.request.OrderRequest;
 
 public abstract class OrderHandler {
 

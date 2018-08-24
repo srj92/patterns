@@ -2,8 +2,9 @@ package com.gof.patterns.behaviour.chainofresponsibility;
 
 import com.gof.patterns.behaviour.chainofresponsibility.orderclient.OrderClient;
 import com.gof.patterns.behaviour.chainofresponsibility.orderhandler.OrderHandler;
-import com.gof.patterns.behaviour.chainofresponsibility.orderhandler.OrderHandlerBuilder;
 import com.gof.patterns.behaviour.chainofresponsibility.orderhandler.OrderHandler.OrderType;
+import com.gof.patterns.behaviour.chainofresponsibility.orderhandler.OrderHandlerBuilder;
+import com.gof.patterns.behaviour.chainofresponsibility.request.OrderRequest;
 
 public class Main {
     
