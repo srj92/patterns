@@ -1,4 +1,4 @@
-package com.gof.patterns.creational.abstractfactorymethod;
+package com.gof.patterns.creational.abstractfactorymethod.drinks;
 
 public class Vodka implements Drink {
 
