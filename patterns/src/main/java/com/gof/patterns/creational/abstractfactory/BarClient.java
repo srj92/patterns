@@ -1,9 +1,9 @@
-package com.gof.patterns.creational.abstractfactorymethod;
+package com.gof.patterns.creational.abstractfactory;
 
-import com.gof.patterns.creational.abstractfactorymethod.drinks.Drink;
-import com.gof.patterns.creational.abstractfactorymethod.factory.DrinksFactory;
-import com.gof.patterns.creational.abstractfactorymethod.factory.VodkaFactory;
-import com.gof.patterns.creational.abstractfactorymethod.factory.WhiskeyFactory;
+import com.gof.patterns.creational.abstractfactory.drinks.Drink;
+import com.gof.patterns.creational.abstractfactory.factory.DrinksFactory;
+import com.gof.patterns.creational.abstractfactory.factory.VodkaFactory;
+import com.gof.patterns.creational.abstractfactory.factory.WhiskeyFactory;
 
 public class BarClient {
 

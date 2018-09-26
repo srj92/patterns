@@ -1,10 +1,5 @@
 package com.gof.patterns.behaviour.chainofresponsibility.orderhandler;
 
-import com.gof.patterns.behaviour.chainofresponsibility.orderhandler.DrinksOrderHandler;
-import com.gof.patterns.behaviour.chainofresponsibility.orderhandler.NonVegOrderHandler;
-import com.gof.patterns.behaviour.chainofresponsibility.orderhandler.OrderHandler;
-import com.gof.patterns.behaviour.chainofresponsibility.orderhandler.VegOrderHandler;
-
 public class OrderHandlerBuilder {
 
     public static OrderHandler buildOrderHandlerChain() {

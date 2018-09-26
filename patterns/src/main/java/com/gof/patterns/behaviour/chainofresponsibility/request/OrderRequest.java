@@ -1,26 +1,26 @@
 package com.gof.patterns.behaviour.chainofresponsibility.request;
 
-import com.gof.patterns.behaviour.chainofresponsibility.orderhandler.OrderHandler.OrderType;
+import com.gof.patterns.behaviour.chainofresponsibility.orderhandler.OrderHandler;
 
 public final class OrderRequest {
 
-    private final OrderType orderType;
+    private final OrderHandler.OrderType orderType;
     private final String orderMessage;
     private final String orderAddress;
     
-    private OrderRequest(OrderType orderType, String orderMessage, String orderAddress) {
+    private OrderRequest(OrderHandler.OrderType orderType, String orderMessage, String orderAddress) {
         super();
         this.orderType = orderType;
         this.orderMessage = orderMessage;
         this.orderAddress = orderAddress;
     }
 
-    public static OrderRequest buildNewOrder(OrderType orderType, String orderMessage, String orderAddress) {
+    public static OrderRequest buildNewOrder(OrderHandler.OrderType orderType, String orderMessage, String orderAddress) {
         OrderRequest orderRequest = new OrderRequest(orderType, orderMessage, orderAddress);
         return orderRequest;
     }
     
-    public OrderType getOrderType() {
+    public OrderHandler.OrderType getOrderType() {
         return orderType;
     }
 

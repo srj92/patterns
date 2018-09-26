@@ -2,7 +2,7 @@ package com.gof.patterns.behaviour.chainofresponsibility.orderhandler;
 
 import com.gof.patterns.behaviour.chainofresponsibility.request.OrderRequest;
 
-public class DrinksOrderHandler extends OrderHandler{
+public class DrinksOrderHandler extends OrderHandler {
 
     @Override
     public void handle(OrderRequest orderRequest) {
